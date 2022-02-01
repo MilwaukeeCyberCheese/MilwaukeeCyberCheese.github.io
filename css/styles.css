@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 page-top{
-	color:black !important;
+	color:black;
 }
 span {
 	color: white;
