@@ -11,10 +11,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 page-top{
-	color:black
+	color:black !important;
 }
 span {
-	color: white
+	color: white;
 }
 #status {
     color: #FFFF00;
@@ -132,7 +132,7 @@ span {
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #000;
 }
 
 *,
@@ -4651,7 +4651,7 @@ textarea.form-control-lg {
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(0, 0, 0, 1);
 }
 
 .navbar-dark .navbar-brand {
@@ -4695,7 +4695,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
